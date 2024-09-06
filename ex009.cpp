@@ -11,11 +11,7 @@ int main(){
 	printf("Digita a nota do Exame final: ");
 	scanf("%f", &n3);
 	
-	p1 = 2;
-	p2 = 3;
-	p3 = 5;
-	
-	media = (n1 * 2) + (n2 * 3) + (n3 * 5) / 10;
+	media = ((n1 * 2) + (n2 * 3) + (n3 * 5)) / 10;
 	
 	if((media >= 0 && media <= 4.99)){
 		printf("A media de suas notas foi de: %f, entao voce eh E", media);
