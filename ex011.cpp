@@ -14,14 +14,14 @@ int main(){
 	c4 = (salario * 0.1) + salario;
 	
 	if(codigo == 1){
-		printf("Cargo: Escrituario\nSalario atual: R$%4.f\nValor do aumento: 50 por cento.\nNovo salario: R$%4.f", salario, c1);
+		printf("Cargo: Escrituario\nSalario atual: R$%.2f\nValor do aumento: 50 por cento.\nNovo salario: R$%4.f", salario, c1);
 	}else if(codigo == 2){
-		printf("Cargo: Secretario\nSalario atual: R$%4.f\nValor do aumento: 35 por cento.\nNovo salario: R$%4.f", salario, c2);
+		printf("Cargo: Secretario\nSalario atual: R$%.2f\nValor do aumento: 35 por cento.\nNovo salario: R$%4.f", salario, c2);
 	}else if(codigo == 3){
-		printf("Cargo: Caixa\nSalario atual: R$%4.f\nValor do aumento: 20 por cento.\nNovo salario: R$%4.f", salario, c3);
+		printf("Cargo: Caixa\nSalario atual: R$%.2f\nValor do aumento: 20 por cento.\nNovo salario: R$%4.f", salario, c3);
 	}else if(codigo == 4){
-		printf("Cargo: Gerente\nSalario atual: R$%4.f\nValor do aumento: 10 por cento.\nNovo salario: R$%4.f", salario, c4);
+		printf("Cargo: Gerente\nSalario atual: R$%.2f\nValor do aumento: 10 por cento.\nNovo salario: R$%4.f", salario, c4);
 	}else{
-		printf("Cargo: Diretor\nSalario atual: R$%4.f\nNao tem aumento.", salario);
+		printf("Cargo: Diretor\nSalario atual: R$%.2f\nNao tem aumento.", salario);
 	}
 }
