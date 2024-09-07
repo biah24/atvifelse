@@ -13,11 +13,11 @@ int main(){
 	b6 = salario + 100;
 	
 	if(salario <= 500){
-		printf("Salario com bonificacao e auxilio-escola: R$%4.f", b3);
+		printf("Salario com bonificacao e auxilio-escola: R$%.2f", b3);
 	}else if((salario > 500 && salario <=600)){
-		printf("Salario com bonificacao e auxilio-escola: R$%4.f", b4);
+		printf("Salario com bonificacao e auxilio-escola: R$%2.f", b4);
 	}else if((salario > 500 && salario <=1200)){
-		printf("Salario com bonificacao e auxilio-escola: R$%4.f", b5);
+		printf("Salario com bonificacao e auxilio-escola: R$%.2f", b5);
 	}else{
 		printf("Seu salario nao possui bonificacao, mas com o auxilio-escola passou a ser: R$%4.f", b6);
 	}
