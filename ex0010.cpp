@@ -12,7 +12,7 @@ int main(){
 	scanf("%f", &n3);
 	
 	media = (n1 + n2 + n3) / 3;
-	exame = 6 - media; 
+	exame = 12 - media; 
 	
 	if(media >= 0.00 && media <= 2.99){
 		printf("REPROVADO");
